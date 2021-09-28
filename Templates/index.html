@@ -1,0 +1,513 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Doni Charity</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+      <!-- fevicon -->
+      <link rel="icon" href="{% static 'images/fevicon.pn' %}g" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{% static 'css/jquery.mCustomScrollbar.min.css' %}">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+      <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      <!-- header section start -->
+      <div class="header_section">
+         
+      </div><nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"><a href=""><img src="{% static 'images/logo.jpg' %}"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="donate">Donate</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="news">News</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="mission">Our Mission</a>
+                  </li>
+               </ul>
+               <form class="form-inline my-2 my-lg-0">
+                  <div class="search_icon"><a href="https://www.savethechildren.in/donate/"><img src="{% static 'images/search-icon.png' %}"></a></div>
+                  <button class="donate_btn" type="submit" ><--Donate Now</button>
+               </form>
+            </div>
+         </nav>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <h1 class="banner_taital">Help Poor Child</h1>
+                           <p class="banner_text">Their children are born into poverty…and the cycle continues. With your support, Children International aims to put an end to generational poverty</p>
+                           <div class="read_bt"><a href="https://support.savethechildren.in/make-a-donation/">Read More</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Poor Child</h1>
+                        <p class="banner_text">In many impoverished communities, children don't have resources like books or uniforms, causing them to fall behind without the support to catch up.</p>
+                        <div class="read_bt"><a href="https://support.savethechildren.in/make-a-donation/">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Poor Child</h1>
+                        <p class="banner_text">Without life skills or coping mechanisms, they are unable to overcome their environment, thus continuing the cycle of poverty for another generation.</p>
+                        <div class="read_bt"><a href="https://support.savethechildren.in/make-a-donation/">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Poor Child</h1>
+                        <p class="banner_text">Unemployed youth often turn to gang affiliation or drugs.</p>
+                        <div class="read_bt"><a href="https://support.savethechildren.in/make-a-donation/">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Poor Child</h1>
+                        <p class="banner_text"> Youth drop out of school to support their families and never go back.  </p>
+                        <div class="read_bt"><a href="https://support.savethechildren.in/make-a-donation/">Read More</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="donation_box">
+            <!-- <h4 class="donation_taital">Contact For Donation</h4> -->
+            <!-- <div class="mail_box">
+               <input type="" class="mail_text" placeholder="Your Name" name="Your Name">
+               <input type="" class="mail_text" placeholder="Email" name="Email">
+               <input type="" class="mail_text" placeholder="Phone" name="Phone">
+            </div> -->
+            <!-- <div class="send_bt"><a href="#">Send</a></div> -->
+         </div>
+         <div class="fundraise_section">
+            <div class="fundraise_section_main">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="{% static 'images/icon-1.png' %}"></div>
+                        <h4 class="volunteer_text">VOLUNTEERS</h4>
+                        <p class="lorem_text">If you are interested in volunteering, please contact the VSO office in your country of residence.</p>
+                        <div class="join_bt"><a href="https://www.vsointernational.org/volunteering">Join Now</a></div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="box_main active">
+                        <div class="icon_1"><img src="{% static 'images/icon-2.png' %}"></div>
+                        <h4 class="volunteer_text">FUNDRAISE</h4>
+                        <p class="lorem_text">Anyone can fundraise for a favourite charity, or on behalf of a specific charity campaign</p>
+                        <div class="join_bt"><a href="https://www.cafonline.org/my-personal-giving/long-term-giving/resource-centre/fundraising-for-charity">Join Now</a></div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="{% static 'images/icon-3.png' %}"></div>
+                        <h4 class="volunteer_text">DONATION</h4>
+                        <p class="lorem_text">Your contribution has the power to uplift children.Come, play your part. Come, donate.</p>
+                        <div class="join_bt"><a href="https://www.savethechildren.in/donate/">Join Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- banner section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8">
+                  <h2 class="about_taital">about Charity</h2>
+                  <p class="about_text">A charity’s aims have to fall into categories that the law says are charitable. These are things like preventing or relieving poverty, or advancing the arts, culture, heritage or science.
+                     It has to be established exclusively for what is known as public benefit. That means its only purpose must be charitable.
+                     Charities can’t make profits. All the money they raise has to go towards achieving their aims. A charity can’t have owners or shareholders who benefit from it.Read on to make sure that your charitable contributions go towards a good cause!
+                  </p>
+                  <div class="readmore_bt"><a href="https://www.dadabhagwan.org/path-to-happiness/humanity/what-is-charity-benefits-and-types-of-charity/">Read more</a></div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="about_img"><img src="{% static 'images/about-img.png' %}"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- mission section start -->
+      <div class="mission_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="mission_taital">Mission, Vision</h1>
+                  <p class="mission_text">A charity can gain trust and credibility by being open and transparent about its mission.</p>
+               </div>
+            </div>
+         </div>
+         <div class="mission_section_2">
+            <div class="row">
+               <div class="offset-md-2"></div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-1.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Objectives</h4>
+                           <p class="alteration_text">Charitable objectives can vary depending upon a nonprofit organization's nature, location, size and other traits. </p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-2.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Aims</h4>
+                           <p class="alteration_text">Aims are generally a group's broad goals, while objectives are specific plans dedicated to achieving these goals. </p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mission_section_2">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-3.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">fundraising</h4>
+                           <p class="alteration_text">fundraising is an objective that should have a specific purpose. For example, a charity that aims to end childhood hunger might have a fundraiser designed in order to provide free meals to local families.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-4.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Raising Awareness of Issues
+                           </h4>
+                           <p class="alteration_text">Sometimes raising awareness about an issue is a crucial part of fixing the issue itself. Charities may aim to raise awareness in their mission statements, but also may enact policies to reach specific awareness objectives.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="offset-md-2"></div>
+            </div>
+         </div>
+         <div class="mission_section_2">
+            <div class="row">
+               <div class="offset-md-2"></div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-5.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Evaluating Charity Objectives </h4>
+                           <p class="alteration_text">Both charities and donors should regularly evaluate whether a charity is meeting its aims and objectives. For the charity itself, evaluating objectives can help it determine whether certain programs need to be altered or eliminated altogether.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-6.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">our mission </h4>
+                           <p class="alteration_text">We inspire employers and individuals to reach their philanthropic goals and support the charities of their choice.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Read More</a></div>
+                              <div class="donate_bt"><a href="https://www.savethechildren.in/donate/">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- mission section end -->
+      <!-- news section start -->
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="news_taital">News</h1>
+                  <p class="news_text"></p>
+               </div>
+            </div>
+            <div class="news_section_2">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="news_img"><img src="{% static 'images/news-img.png' %}"></div>
+                  </div>
+                  <div class="col-md-6">
+                     <h1 class="give_taital">GIVE EDUCATION</h1>
+                     <p class="ipsum_text">Forced to stay indoors with schools being shut down, children became one of the worst sufferers of the pandemic. While many children shifted to digital mode of learning, the less privileged children did not have similar access to technology and their education came to a halt.
+                        Through Shiksha Na Ruke initiative, Smile Foundation has been making an effort to help less privileged children continue their education through a blended learning approach during the pandemic.
+                     </p>
+                     <h5 class="raised_text">Children enrolled: 49,274    <span class="goal_text">Centres: 201</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="https://www.smilefoundationindia.org/shiksha-uny/?utm_source=Google&utm_medium=search_ads&utm_campaign=Unyscape&utm_term=me&gclid=EAIaIQobChMI1LLhydee8wIVoIZLBR2C1gNgEAAYASAAEgJocvD_BwE">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="https://www.smilefoundationindia.org/shiksha-uny/?utm_source=Google&utm_medium=search_ads&utm_campaign=Unyscape&utm_term=me&gclid=EAIaIQobChMI1LLhydee8wIVoIZLBR2C1gNgEAAYASAAEgJocvD_BwE#donate-now">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+      <!-- events section start -->
+      <div class="events_section layout_padding">
+         <!-- <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="news_taital">FEATURED CAUSE</h1>
+                  <p class="news_text">going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+               </div>
+            </div>
+            <div class="events_section_2">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="img_7"><img src="{% static 'images/img-7.png' %}" class="img_7"></div>
+                     <div class="date_bt">
+                        <div class="date_text active"><a href="#">01</a></div>
+                        <div class="date_text"><a href="#">FEB</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <h1 class="give_taital_1">The Internet tend to repeat</h1>
+                     <p class="ipsum_text_1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literatureContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                     <h5 class="raised_text_1">Raised: $60,010 <span class="goal_text">Goal: $70,000</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="donate">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="events_section_2">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="img_7"><img src="{% static 'images/img-8.png' %}" class="img_7"></div>
+                     <div class="date_bt">
+                        <div class="date_text active"><a href="#">10</a></div>
+                        <div class="date_text"><a href="#">FEB</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <h1 class="give_taital_1">The Internet tend to repeat</h1>
+                     <p class="ipsum_text_1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literatureContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                     <h5 class="raised_text_1">Raised: $60,010     <span class="goal_text">Goal: $70,000</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="donate">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> -->
+      </div>
+      <!-- events section end -->
+      <!-- donate section start -->
+      <div class="donate_section layout_padding">
+         <div class="container">
+            <h1 class="donate_taital">Donated pepole Says </h1>
+            <div class="donate_taital_main">
+               <div id="main_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client-img01.png' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Denzel Washington</h3>
+                           <p class="dummy_text">At the end of the day it’s not about what you have or even what you’ve accomplished… it’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back.</p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client-img02.jpg' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Mother Teresa</h3>
+                           <p class="dummy_text">We know only too well that what we are doing is nothing more than a drop in the ocean. But if the drop were not there, the ocean would be missing something.</p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client-img03.jpg' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Jon M. Huntsman</h3>
+                           <p class="dummy_text">Wealth isn’t always measured in dollar signs. We each have time, talent and creativity, all of which can be powerful forces for positive change. Share your blessings in whatever form they come and to whatever level you have been blessed.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                  </a>
+                  <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- donate section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="footer_logo"><img src="{% static 'images/logo.jpg' %}"></div>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-3">
+                  <h4 class="footer_taital">NAVIGATION</h4>
+                  <div class="footer_menu_main">
+                     <div class="footer_menu_left">
+                        <div class="footer_menu">
+                           <ul>
+                              <li><a href="Home">Home</a></li>
+                              <li><a href="donate">Donate</a></li>
+                              <li><a href="contact">Contact us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer_menu_right">
+                        <div class="footer_menu">
+                           <ul>
+                              <li><a href="about">About</a></li>
+                              <li><a href="news">News</a></li>
+                              <li><a href="mission">Our Mission</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-3">
+                  <h4 class="footer_taital">Quote</h4>
+                  <p class="footer_text">"There is no exercise better  </p>
+                  <p class="footer_text"> for the heart than reaching </p>
+                  <p class="footer_text">down and lifting people up"</p>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-3">
+                  <h4 class="footer_taital">address</h4>
+                  <p class="footer_text">Charity Commission,</p>
+                  <p class="footer_text">PO Box 211,</p>
+                  <p class="footer_text">Bootle, L20 7YX</p>
+               </div>
+            </div>
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-sm-4 col-md-4 col-lg-3">
+                     <div class="social_icon">
+                        <ul>
+                           <li><img src="{% static 'images/fb-icon.png' %}"></li>
+                           <li><img src="{% static 'images/twitter-icon.png' %}"></li>
+                           <li><img src="{% static 'images/linkedin-icon.png' %}"></li>
+                           <li><img src="{% static 'images/instagram-icon.png' %}"></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2020 All Rights Reserved. Created by Dhananjay Katare</p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+      <script src="{% static 'js/plugin.js' %}"></script>
+      <!-- sidebar -->
+      <script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
+      <!-- javascript --> 
+      <script src="{% static 'js/owl.carousel.js' %}"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+   </body>
+</html>
+
